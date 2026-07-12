@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaDesk — Your Productive Haven in the Heart of the City</title>
+<meta name="description" content="NovaDesk is a modern coworking space for remote workers, freelancers, and startups. Book a day pass, dedicated desk, or private office.">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= HEADER / NAV ================= -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#top" class="logo">NovaDesk<span class="logo-dot">.</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#location">Location</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+      </button>
+
+      <a href="#booking" class="btn btn-primary btn-small js-scroll-booking">Book a Tour</a>
+
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#features">Features</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#location">Location</a>
+  <a href="#faq">FAQ</a>
+  <a href="#booking" class="btn btn-primary js-scroll-booking">Book a Tour</a>
+</div>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="eyebrow">Opening downtown — reserve your spot</span>
+        <h1>Your Productive Haven in the <span class="text-accent">Heart of the City.</span></h1>
+        <p class="hero-sub">High-speed internet, premium coffee, and a community of innovators. Rent a desk for an hour, a day, or a year.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary js-scroll-booking" type="button">Claim Free Day Pass</button>
+          <a href="#features" class="btn btn-ghost">Explore Workspaces</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>120+</strong><span>Desks &amp; suites</span></div>
+          <div><strong>1 Gbps</strong><span>Fiber network</span></div>
+          <div><strong>24/7</strong><span>Keycard access</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-photo-main">
+          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=900&q=80" alt="Open-plan coworking space with wooden desks and natural light" loading="eager">
+        </div>
+        <div class="hero-photo-float">
+          <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=500&q=80" alt="Two people collaborating at a shared desk">
+        </div>
+        <div class="floor-tag">
+          <span class="floor-tag-dot"></span> Live availability — 14 desks open today
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FEATURES ================= -->
+  <section class="features" id="features">
+    <div class="section-head">
+      <span class="eyebrow">Why NovaDesk</span>
+      <h2>Everything a focused day needs, nothing it doesn't.</h2>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 11-14h-7l1-6z"/></svg>
+        </div>
+        <h3>Ultra-Fast Fiber Wi‑Fi</h3>
+        <p>Gigabit connection with seamless backup networks, so a dropped signal never drops a client call.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+        </div>
+        <h3>Unlimited Artisanal Coffee</h3>
+        <p>Hand-crafted espresso and tea, brewed all day by our in-house baristas. Refills are always on the house.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <h3>24/7 Secure Access</h3>
+        <p>Smart keycard entry lets you in whenever inspiration strikes — 2am deadline or 6am head start.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+        </div>
+        <h3>Soundproof Phone Booths</h3>
+        <p>Private, quiet pods built for Zoom calls and client meetings — no headphones required.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PRICING ================= -->
+  <section class="pricing" id="pricing">
+    <div class="section-head">
+      <span class="eyebrow">Membership</span>
+      <h2>Pick a plan that matches how you work.</h2>
+    </div>
+
+    <div class="pricing-grid">
+
+      <div class="price-card">
+        <h3>Day Pass</h3>
+        <p class="price"><span class="amount">$25</span><span class="period">/ day</span></p>
+        <ul class="price-features">
+          <li>Access to open seating</li>
+          <li>Free artisanal coffee</li>
+          <li>Fast fiber Wi‑Fi</li>
+        </ul>
+        <button class="btn btn-outline js-scroll-booking" type="button">Get a Day Pass</button>
+      </div>
+
+      <div class="price-card price-card-popular">
+        <span class="popular-badge">Most Popular</span>
+        <h3>Dedicated Desk</h3>
+        <p class="price"><span class="amount">$299</span><span class="period">/ month</span></p>
+        <ul class="price-features">
+          <li>Your own assigned desk</li>
+          <li>24/7 building access</li>
+          <li>5 hrs meeting room credits / mo</li>
+        </ul>
+        <button class="btn btn-primary js-scroll-booking" type="button">Reserve This Desk</button>
+      </div>
+
+      <div class="price-card">
+        <h3>Private Office</h3>
+        <p class="price"><span class="amount">$599</span><span class="period">/ month</span></p>
+        <ul class="price-features">
+          <li>Lockable office for up to 4</li>
+          <li>Your brand's logo on the door</li>
+          <li>Full building access</li>
+        </ul>
+        <button class="btn btn-outline js-scroll-booking" type="button">Talk to Us</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= LOCATION ================= -->
+  <section class="location" id="location">
+    <div class="location-inner">
+      <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80" alt="Sunlit coworking desks by a large window" class="location-photo">
+      <div class="location-copy">
+        <span class="eyebrow">Find us</span>
+        <h2>Right in the middle of everything.</h2>
+        <p>NovaDesk sits a five-minute walk from the metro, surrounded by cafés, gyms, and the kind of lunch spots that make a workday better. Drop by for a tour any weekday, no appointment needed.</p>
+        <ul class="location-list">
+          <li>Open Monday–Friday, 7am–9pm · Members have 24/7 access</li>
+          <li>Bike storage and shower facilities on-site</li>
+          <li>Five minutes from the metro station</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BOOKING FORM ================= -->
+  <section class="booking" id="booking">
+    <div class="booking-card" id="bookingCard">
+      <div class="booking-form-wrap" id="bookingFormWrap">
+        <span class="eyebrow">Reserve your seat</span>
+        <h2>Claim your free day pass</h2>
+        <p class="booking-sub">Fill in your details and we'll hold a desk for you. No credit card needed.</p>
+
+        <form id="bookingForm" novalidate>
+          <div class="form-row">
+            <label for="fullName">Full name</label>
+            <input type="text" id="fullName" name="name" placeholder="Jordan Lee" autocomplete="name" required>
+            <span class="field-error" id="err-fullName"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" autocomplete="email" required>
+            <span class="field-error" id="err-email"></span>
+          </div>
+
+          <div class="form-row form-row-split">
+            <div>
+              <label for="visitDate">Preferred date</label>
+              <input type="date" id="visitDate" name="date" required>
+              <span class="field-error" id="err-visitDate"></span>
+            </div>
+            <div>
+              <label for="deskType">Desk type</label>
+              <select id="deskType" name="deskType" required>
+                <option value="" disabled selected>Choose one</option>
+                <option value="Hot Desk">Hot Desk</option>
+                <option value="Dedicated Desk">Dedicated Desk</option>
+                <option value="Private Office">Private Office</option>
+              </select>
+              <span class="field-error" id="err-deskType"></span>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+            <span class="btn-label">Submit Request</span>
+          </button>
+          <p class="form-note">We'll email you a confirmation within one business day.</p>
+        </form>
+      </div>
+
+      <div class="booking-success" id="bookingSuccess" hidden>
+        <div class="success-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+        </div>
+        <h3 id="successHeadline">Thanks! Your pass has been reserved.</h3>
+        <p id="successBody">Check your email for details.</p>
+        <button class="btn btn-outline" id="bookAnotherBtn" type="button">Book another pass</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FAQ (anchor target, kept lightweight) ================= -->
+  <section class="faq" id="faq">
+    <div class="section-head">
+      <span class="eyebrow">Good to know</span>
+      <h2>Frequently asked questions</h2>
+    </div>
+    <div class="faq-list">
+      <details>
+        <summary>Do I need to book in advance for a Day Pass?</summary>
+        <p>It helps, but it's not required. Booking ahead just guarantees your desk during busy weeks.</p>
+      </details>
+      <details>
+        <summary>Can I upgrade from a Day Pass to a membership later?</summary>
+        <p>Yes — we'll credit your most recent day pass toward your first month if you upgrade within 14 days.</p>
+      </details>
+      <details>
+        <summary>Is there a minimum commitment for the Dedicated Desk plan?</summary>
+        <p>No long-term contract. Dedicated Desk and Private Office plans are billed monthly and can be cancelled anytime.</p>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="#top" class="logo">NovaDesk<span class="logo-dot">.</span></a>
+      <p>A productive haven in the heart of the city.</p>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h4>Explore</h4>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#location">Location</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <a href="mailto:hello@novadesk.com">hello@novadesk.com</a>
+        <a href="#" aria-label="NovaDesk on Instagram">Instagram</a>
+        <a href="#" aria-label="NovaDesk on LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="NovaDesk on Twitter">Twitter</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> NovaDesk Coworking. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
